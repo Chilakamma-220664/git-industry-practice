@@ -44,7 +44,9 @@ Copies an existing remote repository from GitHub (or any remote server) to your 
 git clone https://github.com/your-username/git-industry-practice.git
 
 **Screenshot Proof:**
-(Add screenshot of terminal showing git clone command execution)
+**Screenshot Proof:**
+
+![git status output](git_status.png)
 
 ### Command: git clone --branch
 
@@ -58,7 +60,9 @@ Clones a specific branch from a remote repository instead of the default branch.
 git clone --branch master https://github.com/your-username/git-industry-practice.git
 
 **Screenshot Proof:**
-(Add screenshot showing cloning specific branch)
+**Screenshot Proof:**
+
+![git status output](git_status.png)
 
 ### Command: git clone --depth
 
@@ -72,4 +76,6 @@ Clones the repository with limited commit history (shallow clone). Improves spee
 git clone --depth 1 https://github.com/your-username/git-industry-practice.git
 
 **Screenshot Proof:**
-(Add screenshot showing shallow clone)
+**Screenshot Proof:**
+
+![git status output](git_status.png)
