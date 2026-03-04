@@ -145,3 +145,44 @@ git branch -a
 
 **Screenshot Proof:**
 ![Git Branch -a](git_branch_a.png)
+
+### Command: git checkout -b
+
+**Syntax:**
+git checkout -b <branch-name>
+
+**Purpose:**
+Creates and switches to a new branch.
+
+**Example:**
+git checkout -b feature-branch
+
+**Screenshot Proof:**
+![Git Checkout -b](git_checkout_b.png)
+
+### Command: git switch
+
+**Syntax:**
+git switch <branch-name>
+
+**Purpose:**
+Switches to an existing branch.
+
+**Example:**
+git switch main
+
+**Screenshot Proof:**
+![Git Switch](git_switch.png)
+
+### Command: git checkout
+
+**Syntax:**
+git checkout <branch-name>
+
+**Purpose:**
+Switches to another branch 
+**Example:**
+git checkout main
+
+**Screenshot Proof:**
+![Git Checkout](git_checkout.png)
