@@ -79,3 +79,31 @@ git clone --depth 1 https://github.com/your-username/git-industry-practice.git
 **Screenshot Proof:**
 
 ![git status output](git_status.png)
+
+### Command: git log --oneline
+
+**Syntax:**
+git log --oneline
+
+**Purpose:**
+Displays commit history in a short, single-line format.
+
+**Example:**
+git log --oneline
+
+**Screenshot Proof:**
+(Add screenshot showing git log --oneline output)
+
+### Command: git log --graph
+
+**Syntax:**
+git log --graph
+
+**Purpose:**
+Shows commit history in a graphical tree structure.
+
+**Example:**
+git log --graph
+
+**Screenshot Proof:**
+(Add screenshot showing git log --graph output)
