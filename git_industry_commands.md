@@ -109,3 +109,14 @@ git log --graph
 ![git status output](git_status.png)
 
 ![Git Log Oneline](git_log_oneline.png)
+
+### Command: git log --graph
+
+**Syntax:**
+git log --graph
+
+**Purpose:**
+Shows commit history in a graphical tree structure.
+
+**Screenshot Proof:**
+![Git Log Graph](git_log_graph.png)
