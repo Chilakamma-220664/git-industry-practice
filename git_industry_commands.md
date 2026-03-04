@@ -120,3 +120,14 @@ Shows commit history in a graphical tree structure.
 
 **Screenshot Proof:**
 ![Git Log Graph](git_log_graph.png)
+
+### Command: git branch
+
+**Syntax:**
+git branch
+
+**Purpose:**
+Lists all branches in the repository and highlights the current branch.
+
+**Screenshot Proof:**
+![Git Branch](branch.png)
