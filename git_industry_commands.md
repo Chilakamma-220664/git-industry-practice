@@ -31,3 +31,45 @@ Initializes a new Git repository.
 
 **Example:**
 git init
+
+### Command: git clone
+
+**Syntax:**
+git clone <repository_url>
+
+**Purpose:**
+Copies an existing remote repository from GitHub (or any remote server) to your local system.
+
+**Example:**
+git clone https://github.com/your-username/git-industry-practice.git
+
+**Screenshot Proof:**
+(Add screenshot of terminal showing git clone command execution)
+
+### Command: git clone --branch
+
+**Syntax:**
+git clone --branch <branch-name> <repository_url>
+
+**Purpose:**
+Clones a specific branch from a remote repository instead of the default branch.
+
+**Example:**
+git clone --branch master https://github.com/your-username/git-industry-practice.git
+
+**Screenshot Proof:**
+(Add screenshot showing cloning specific branch)
+
+### Command: git clone --depth
+
+**Syntax:**
+git clone --depth <number> <repository_url>
+
+**Purpose:**
+Clones the repository with limited commit history (shallow clone). Improves speed by downloading fewer commits.
+
+**Example:**
+git clone --depth 1 https://github.com/your-username/git-industry-practice.git
+
+**Screenshot Proof:**
+(Add screenshot showing shallow clone)
