@@ -106,4 +106,6 @@ Shows commit history in a graphical tree structure.
 git log --graph
 
 **Screenshot Proof:**
-(Add screenshot showing git log --graph output)
+![git status output](git_status.png)
+
+![Git Log Oneline](git_log_oneline.png)
