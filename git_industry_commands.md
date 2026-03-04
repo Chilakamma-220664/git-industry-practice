@@ -131,3 +131,17 @@ Lists all branches in the repository and highlights the current branch.
 
 **Screenshot Proof:**
 ![Git Branch](branch.png)
+
+### Command: git branch -a
+
+**Syntax:**
+git branch -a
+
+**Purpose:**
+Displays all local and remote branches.
+
+**Example:**
+git branch -a
+
+**Screenshot Proof:**
+![Git Branch -a](git_branch_a.png)
