@@ -26,7 +26,6 @@
         h2 {
             text-align: center;
             margin-bottom: 20px;
-            color: #333;
         }
         
         input {
@@ -35,7 +34,6 @@
             margin: 10px 0;
             border-radius: 6px;
             border: 1px solid #ccc;
-            font-size: 14px;
         }
         
         button {
@@ -73,9 +71,9 @@
 
         <h2>Login</h2>
 
-        <form>
+        <form id="loginForm">
 
-            <input type="email" placeholder="Email" required>
+            <input type="email" id="loginEmail" placeholder="Email" required>
 
             <input type="password" placeholder="Password" required>
 
@@ -89,6 +87,28 @@
         </form>
 
     </div>
+
+    <script>
+        document.getElementById("loginForm").addEventListener("submit", function(e) {
+
+            e.preventDefault();
+
+            let enteredEmail = document.getElementById("loginEmail").value;
+
+            let savedEmail = localStorage.getItem("email");
+
+            if (enteredEmail === savedEmail) {
+
+                window.location.href = "dashboard.html";
+
+            } else {
+
+                alert("Invalid Email. Please register first.");
+
+            }
+
+        });
+    </script>
 
 </body>
 

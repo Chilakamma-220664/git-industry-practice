@@ -26,7 +26,6 @@
         h2 {
             text-align: center;
             margin-bottom: 20px;
-            color: #333;
         }
         
         input {
@@ -35,7 +34,6 @@
             margin: 10px 0;
             border-radius: 6px;
             border: 1px solid #ccc;
-            font-size: 14px;
         }
         
         button {
@@ -73,15 +71,13 @@
 
         <h2>Register</h2>
 
-        <form>
+        <form id="registerForm">
 
-            <input type="text" placeholder="Full Name" required>
+            <input type="text" id="name" placeholder="Full Name" required>
 
-            <input type="email" placeholder="Email" required>
+            <input type="email" id="email" placeholder="Email" required>
 
-            <input type="date" required>
-
-            <input type="password" placeholder="Password" required>
+            <input type="password" id="password" placeholder="Password" required>
 
             <input type="password" placeholder="Confirm Password" required>
 
@@ -95,6 +91,24 @@
         </form>
 
     </div>
+
+    <script>
+        document.getElementById("registerForm").addEventListener("submit", function(e) {
+
+            e.preventDefault();
+
+            let name = document.getElementById("name").value;
+            let email = document.getElementById("email").value;
+
+            localStorage.setItem("name", name);
+            localStorage.setItem("email", email);
+
+            alert("Registered Successfully");
+
+            window.location.href = "login.html";
+
+        });
+    </script>
 
 </body>
 
